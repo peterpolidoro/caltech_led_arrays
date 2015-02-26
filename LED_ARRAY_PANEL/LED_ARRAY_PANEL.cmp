@@ -1,0 +1,199 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Thu 25 Feb 2010 02:21:26 PM PST
+
+BeginCmp
+TimeStamp = /4B85B6DC;
+Reference = CCB1;
+ValeurCmp = CURRENTCONTROLBOARD;
+IdModule  = CURRENT_CONTROL_BOARD_3_PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B6EE;
+Reference = D101;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B6F8;
+Reference = D102;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B708;
+Reference = D103;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B709;
+Reference = D104;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B713;
+Reference = D105;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B72D;
+Reference = D201;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B72E;
+Reference = D202;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B72F;
+Reference = D203;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B730;
+Reference = D204;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B731;
+Reference = D205;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78B;
+Reference = D301;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78C;
+Reference = D302;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78D;
+Reference = D303;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78E;
+Reference = D304;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78F;
+Reference = D305;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B790;
+Reference = D401;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B791;
+Reference = D402;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B792;
+Reference = D403;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B793;
+Reference = D404;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B794;
+Reference = D405;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B798;
+Reference = D501;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B799;
+Reference = D502;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B79A;
+Reference = D503;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B79B;
+Reference = D504;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B79C;
+Reference = D505;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B86CF65;
+Reference = P1;
+ValeurCmp = HEADER_FEMALE_PINS;
+IdModule  = HEADER_8_PIN_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B86CF77;
+Reference = P2;
+ValeurCmp = HEADER_MALE_PINS;
+IdModule  = HEADER_8_PIN_THRU_HOLE;
+EndCmp
+
+EndListe

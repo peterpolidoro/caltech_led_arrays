@@ -1,0 +1,232 @@
+
+(session LED_ARRAY_POWER_BOARD.ses
+  (base_design LED_ARRAY_POWER_BOARD.dsn)
+  (placement
+    (resolution mil 10)
+    (component BOARDBOARDHEADER02
+      (place BBH3 61000 -50500 front 90)
+      (place BBH2 56000 -55500 front 0)
+      (place BBH1 56000 -35500 front 0)
+    )
+    (component SCREW_TERMINAL_2
+      (place P1 63500 -28500 front 180)
+    )
+    (component SM1210
+      (place C1 63500 -37000 front 0)
+    )
+    (component SM2010
+      (place R1 53000 -39500 front 270)
+    )
+    (component TESTPOINT
+      (place TP2 53000 -41750 front 0)
+      (place TP1 53000 -37250 front 180)
+    )
+    (component TO_269AA
+      (place D1 63500 -33000 front 270)
+    )
+    (component ToggleSwitch
+      (place SW1 58500 -37750 front 180)
+    )
+    (component BUCKPUCK
+      (place BP1 56000 -43500 front 0)
+    )
+    (component POT_296_PERPENDICULAR
+      (place RV1 55250 -31500 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(20090216-final)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_45:25_mil"
+        (shape
+          (circle Component 450 0 0)
+        )
+        (shape
+          (circle Copper 450 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /GND
+        (wire
+          (path Component 860
+            61000 -50000
+            61000 -51000
+          )
+        )
+        (wire
+          (path Component 860
+            64100 -37000
+            64100 -46900
+            61000 -50000
+          )
+        )
+        (wire
+          (path Component 860
+            64000 -35535
+            64100 -35635
+            64100 -37000
+          )
+        )
+        (wire
+          (path Component 860
+            64000 -34250
+            64000 -35535
+          )
+        )
+        (wire
+          (path Copper 860
+            56000 -46500
+            59500 -50000
+            61000 -50000
+          )
+        )
+      )
+      (net "/LED-"
+        (wire
+          (path Copper 860
+            56500 -55500
+            55500 -55500
+          )
+        )
+        (wire
+          (path Component 860
+            56000 -41500
+            55326 -41500
+            54788 -42038
+            54788 -54788
+            55500 -55500
+          )
+        )
+      )
+      (net /LED+
+        (wire
+          (path Copper 860
+            56500 -35500
+            55500 -35500
+          )
+        )
+        (wire
+          (path Component 860
+            53000 -37250
+            53000 -36040
+          )
+        )
+        (wire
+          (path Component 860
+            53000 -36040
+            54960 -36040
+            55500 -35500
+          )
+        )
+        (wire
+          (path Component 860
+            53000 -38540
+            53000 -37250
+          )
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Component 860
+            63000 -31750
+            63000 -28500
+          )
+        )
+      )
+      (net "N-000001"
+        (wire
+          (path Component 860
+            64000 -31750
+            64000 -28500
+          )
+        )
+      )
+      (net /Vin
+        (wire
+          (path Component 860
+            62900 -37000
+            62900 -35640
+          )
+        )
+        (wire
+          (path Component 860
+            62900 -35640
+            63000 -35540
+            63000 -34250
+          )
+        )
+        (wire
+          (path Component 860
+            62900 -37000
+            62900 -38439
+            56839 -44500
+            56000 -44500
+          )
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Component 860
+            53000 -40500
+            53000 -40460
+          )
+        )
+        (wire
+          (path Component 860
+            53000 -41750
+            53000 -40500
+          )
+        )
+        (wire
+          (path Component 860
+            53000 -40500
+            56000 -40500
+          )
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Copper 860
+            56000 -42500
+            56359 -42500
+            59500 -39359
+            59500 -37750
+          )
+        )
+        (wire
+          (path Copper 860
+            56730 -27560
+            59500 -30330
+            59500 -37750
+          )
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path Component 860
+            57500 -37750
+            57500 -42476
+            56476 -43500
+            56000 -43500
+          )
+        )
+        (wire
+          (path Copper 860
+            55250 -27560
+            55250 -31439
+            57500 -33689
+            57500 -37750
+          )
+        )
+      )
+    )
+  )
+)

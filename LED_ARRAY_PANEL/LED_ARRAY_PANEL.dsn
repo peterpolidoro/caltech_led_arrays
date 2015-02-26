@@ -1,0 +1,266 @@
+(pcb /home/peter/subversion/caltech/Kicad/projects/LED_Array/LED_ARRAY_PANEL/LED_ARRAY_PANEL.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "Kicad's PCBNEW")
+    (host_version "(20090216-final)")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Component
+      (type signal)
+      (property 
+        (index 0)
+      )
+    )
+    (layer Copper
+      (type signal)
+      (property 
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  5225 -3475  6475 -3475  6475 -4725  5225 -4725  5225 -3475)
+    )
+    (via "Via[0-1]_45:25_mil")
+    (rule
+      (width 60)
+      (clearance 10.1)
+      (clearance 12.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component CURRENT_CONTROL_BOARD_3_PIN
+      (place CCB1 5975 -3650 back 90 (PN CURRENTCONTROLBOARD))
+    )
+    (component HEADER_8_PIN_THRU_HOLE
+      (place P2 6225 -4100 back 90 (PN HEADER_MALE_PINS))
+    )
+    (component LED_VSMG3700_SMALL_FOOTPRINT
+      (place D505 6350 -4600 front 0 (PN LED))
+      (place D504 6350 -4350 front 0 (PN LED))
+      (place D503 6350 -4100 front 0 (PN LED))
+      (place D502 6350 -3850 front 0 (PN LED))
+      (place D501 6350 -3600 front 0 (PN LED))
+      (place D405 6100 -4600 front 0 (PN LED))
+      (place D404 6100 -4350 front 0 (PN LED))
+      (place D403 6100 -4100 front 0 (PN LED))
+      (place D402 6100 -3850 front 0 (PN LED))
+      (place D401 6100 -3600 front 0 (PN LED))
+      (place D305 5850 -4600 front 0 (PN LED))
+      (place D304 5850 -4350 front 0 (PN LED))
+      (place D303 5850 -4100 front 0 (PN LED))
+      (place D302 5850 -3850 front 0 (PN LED))
+      (place D301 5850 -3600 front 0 (PN LED))
+      (place D205 5600 -4600 front 0 (PN LED))
+      (place D204 5600 -4350 front 0 (PN LED))
+      (place D203 5600 -4100 front 0 (PN LED))
+      (place D202 5600 -3850 front 0 (PN LED))
+      (place D201 5600 -3600 front 0 (PN LED))
+      (place D105 5350 -4600 front 0 (PN LED))
+      (place D104 5350 -4350 front 0 (PN LED))
+      (place D103 5350 -4100 front 0 (PN LED))
+      (place D102 5350 -3850 front 0 (PN LED))
+      (place D101 5350 -3600 front 0 (PN LED))
+    )
+    (component HEADER_8_PIN_SMD
+      (place P1 5662 -4100 back 90 (PN HEADER_FEMALE_PINS))
+    )
+  )
+  (library
+    (image CURRENT_CONTROL_BOARD_3_PIN
+      (outline (path signal 15  -150 50  -150 -50))
+      (outline (path signal 15  -150 -50  150 -50))
+      (outline (path signal 15  150 -50  150 50))
+      (outline (path signal 15  150 50  -150 50))
+      (pin Round[A]Pad_60_mil 1 -100 0)
+      (pin Round[A]Pad_60_mil 2 0 0)
+      (pin Round[A]Pad_60_mil 3 100 0)
+    )
+    (image HEADER_8_PIN_THRU_HOLE
+      (outline (path signal 15  350 -50  350 -150))
+      (outline (path signal 15  250 -50  250 -150))
+      (outline (path signal 15  150 -50  150 -150))
+      (outline (path signal 15  50 -50  50 -150))
+      (outline (path signal 15  -50 -50  -50 -150))
+      (outline (path signal 15  -150 -50  -150 -150))
+      (outline (path signal 15  -250 -50  -250 -150))
+      (outline (path signal 15  -350 -50  -350 -150))
+      (outline (path signal 15  -400 50  -400 -50))
+      (outline (path signal 15  -400 -50  400 -50))
+      (outline (path signal 15  400 -50  400 50))
+      (outline (path signal 15  400 50  -400 50))
+      (pin Rect[A]Pad_60x60_mil 1 -350 0)
+      (pin Round[A]Pad_60_mil 2 -250 0)
+      (pin Round[A]Pad_60_mil 3 -150 0)
+      (pin Round[A]Pad_60_mil 4 -50 0)
+      (pin Round[A]Pad_60_mil 5 50 0)
+      (pin Round[A]Pad_60_mil 6 150 0)
+      (pin Round[A]Pad_60_mil 7 250 0)
+      (pin Round[A]Pad_60_mil 8 350 0)
+    )
+    (image LED_VSMG3700_SMALL_FOOTPRINT
+      (outline (path signal 15  -110 -60  -70 -110))
+      (outline (path signal 15  -110 110  -110 -110))
+      (outline (path signal 15  -110 -110  110 -110))
+      (outline (path signal 15  110 -110  110 110))
+      (outline (path signal 15  110 110  -110 110))
+      (pin Rect[T]Pad_102x63_mil 1 0 55)
+      (pin Rect[T]Pad_102x63_mil 2 0 -55)
+    )
+    (image HEADER_8_PIN_SMD
+      (outline (path signal 15  -410 165  -410 430))
+      (outline (path signal 15  -410 430  410 430))
+      (outline (path signal 15  410 430  410 165))
+      (outline (path signal 15  350 165  350 80))
+      (outline (path signal 15  250 165  250 80))
+      (outline (path signal 15  150 165  150 80))
+      (outline (path signal 15  50 165  50 80))
+      (outline (path signal 15  -50 165  -50 80))
+      (outline (path signal 15  -150 165  -150 80))
+      (outline (path signal 15  -250 165  -250 80))
+      (outline (path signal 15  -350 165  -350 80))
+      (outline (path signal 15  -410 165  410 165))
+      (pin Rect[T]Pad_60x125_mil 1 -350 0)
+      (pin Rect[T]Pad_60x125_mil 2 -250 0)
+      (pin Rect[T]Pad_60x125_mil 3 -150 0)
+      (pin Rect[T]Pad_60x125_mil 4 -50 0)
+      (pin Rect[T]Pad_60x125_mil 5 50 0)
+      (pin Rect[T]Pad_60x125_mil 6 150 0)
+      (pin Rect[T]Pad_60x125_mil 7 250 0)
+      (pin Rect[T]Pad_60x125_mil 8 350 0)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Component 60))
+      (shape (circle Copper 60))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_60x60_mil
+      (shape (rect Component -30 -30 30 30))
+      (shape (rect Copper -30 -30 30 30))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_60x125_mil
+      (shape (rect Component -30 -62.5 30 62.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_102x63_mil
+      (shape (rect Component -51 -31.5 51 31.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_45:25_mil"
+      (shape (circle Component 45))
+      (shape (circle Copper 45))
+      (attach off)
+    )
+  )
+  (network
+    (net /LED+
+      (pins CCB1-1 D501-1 D401-1 D301-1 D201-1 D101-1)
+    )
+    (net GND
+      (pins CCB1-2)
+    )
+    (net "/LED-"
+      (pins CCB1-3 D505-2 D405-2 D305-2 D205-2 D105-2)
+    )
+    (net "N-000004"
+      (pins P2-1 P1-1)
+    )
+    (net "N-000025"
+      (pins P2-2 P1-2)
+    )
+    (net "N-000003"
+      (pins P2-3 P1-3)
+    )
+    (net "N-000026"
+      (pins P2-4 P1-4)
+    )
+    (net "N-000002"
+      (pins P2-5 P1-5)
+    )
+    (net "N-000027"
+      (pins P2-6 P1-6)
+    )
+    (net "N-000001"
+      (pins P2-7 P1-7)
+    )
+    (net "N-000028"
+      (pins P2-8 P1-8)
+    )
+    (net "N-000024"
+      (pins D505-1 D504-2)
+    )
+    (net "N-000021"
+      (pins D504-1 D503-2)
+    )
+    (net "N-000023"
+      (pins D503-1 D502-2)
+    )
+    (net "N-000022"
+      (pins D502-1 D501-2)
+    )
+    (net "N-000020"
+      (pins D405-1 D404-2)
+    )
+    (net "N-000013"
+      (pins D404-1 D403-2)
+    )
+    (net "N-000018"
+      (pins D403-1 D402-2)
+    )
+    (net "N-000017"
+      (pins D402-1 D401-2)
+    )
+    (net "N-000019"
+      (pins D305-1 D304-2)
+    )
+    (net "N-000014"
+      (pins D304-1 D303-2)
+    )
+    (net "N-000015"
+      (pins D303-1 D302-2)
+    )
+    (net "N-000016"
+      (pins D302-1 D301-2)
+    )
+    (net "N-000012"
+      (pins D205-1 D204-2)
+    )
+    (net "N-000005"
+      (pins D204-1 D203-2)
+    )
+    (net "N-000010"
+      (pins D203-1 D202-2)
+    )
+    (net "N-000009"
+      (pins D202-1 D201-2)
+    )
+    (net "N-000011"
+      (pins D105-1 D104-2)
+    )
+    (net "N-000006"
+      (pins D104-1 D103-2)
+    )
+    (net "N-000007"
+      (pins D103-1 D102-2)
+    )
+    (net "N-000008"
+      (pins D102-1 D101-2)
+    )
+    (class kicad_default /LED+ "/LED-" GND "N-000001" "N-000002" "N-000003"
+      "N-000004" "N-000005" "N-000006" "N-000007" "N-000008" "N-000009" "N-000010"
+      "N-000011" "N-000012" "N-000013" "N-000014" "N-000015" "N-000016" "N-000017"
+      "N-000018" "N-000019" "N-000020" "N-000021" "N-000022" "N-000023" "N-000024"
+      "N-000025" "N-000026" "N-000027" "N-000028"
+      (circuit
+        (use_via Via[0-1]_45:25_mil)
+      )
+      (rule (width 60))
+    )
+  )
+  (wiring
+  )
+)

@@ -1,0 +1,41 @@
+EESchema-DOCLIB  Version 2.0  Mon 01 Feb 2010 05:25:18 PM PST
+#
+$CMP BRIDGE
+D Pont de Diodes
+K Pont Diode
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP PROBEPOINT
+D Probe Point
+K probepoint
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP SPST
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+#End Doc Library

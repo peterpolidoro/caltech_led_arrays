@@ -1,0 +1,458 @@
+# EESchema Netlist Version 1.1 created  Thu 25 Feb 2010 02:56:50 PM PST
+(
+ ( /4B86CF77 $noname  P2 HEADER_MALE_PINS {Lib=CONN_8_REV}
+  (    1 N-000004 )
+  (    2 N-000025 )
+  (    3 N-000003 )
+  (    4 N-000026 )
+  (    5 N-000002 )
+  (    6 N-000027 )
+  (    7 N-000001 )
+  (    8 N-000028 )
+ )
+ ( /4B86CF65 $noname  P1 HEADER_FEMALE_PINS {Lib=CONN_8}
+  (    1 N-000004 )
+  (    2 N-000025 )
+  (    3 N-000003 )
+  (    4 N-000026 )
+  (    5 N-000002 )
+  (    6 N-000027 )
+  (    7 N-000001 )
+  (    8 N-000028 )
+ )
+ ( /4B85B79C $noname  D505 LED {Lib=LED}
+  (    1 N-000024 )
+  (    2 /LED- )
+ )
+ ( /4B85B79B $noname  D504 LED {Lib=LED}
+  (    1 N-000021 )
+  (    2 N-000024 )
+ )
+ ( /4B85B79A $noname  D503 LED {Lib=LED}
+  (    1 N-000023 )
+  (    2 N-000021 )
+ )
+ ( /4B85B799 $noname  D502 LED {Lib=LED}
+  (    1 N-000022 )
+  (    2 N-000023 )
+ )
+ ( /4B85B798 $noname  D501 LED {Lib=LED}
+  (    1 /LED+ )
+  (    2 N-000022 )
+ )
+ ( /4B85B794 $noname  D405 LED {Lib=LED}
+  (    1 N-000020 )
+  (    2 /LED- )
+ )
+ ( /4B85B793 $noname  D404 LED {Lib=LED}
+  (    1 N-000013 )
+  (    2 N-000020 )
+ )
+ ( /4B85B792 $noname  D403 LED {Lib=LED}
+  (    1 N-000018 )
+  (    2 N-000013 )
+ )
+ ( /4B85B791 $noname  D402 LED {Lib=LED}
+  (    1 N-000017 )
+  (    2 N-000018 )
+ )
+ ( /4B85B790 $noname  D401 LED {Lib=LED}
+  (    1 /LED+ )
+  (    2 N-000017 )
+ )
+ ( /4B85B78F $noname  D305 LED {Lib=LED}
+  (    1 N-000019 )
+  (    2 /LED- )
+ )
+ ( /4B85B78E $noname  D304 LED {Lib=LED}
+  (    1 N-000014 )
+  (    2 N-000019 )
+ )
+ ( /4B85B78D $noname  D303 LED {Lib=LED}
+  (    1 N-000015 )
+  (    2 N-000014 )
+ )
+ ( /4B85B78C $noname  D302 LED {Lib=LED}
+  (    1 N-000016 )
+  (    2 N-000015 )
+ )
+ ( /4B85B78B $noname  D301 LED {Lib=LED}
+  (    1 /LED+ )
+  (    2 N-000016 )
+ )
+ ( /4B85B731 $noname  D205 LED {Lib=LED}
+  (    1 N-000012 )
+  (    2 /LED- )
+ )
+ ( /4B85B730 $noname  D204 LED {Lib=LED}
+  (    1 N-000005 )
+  (    2 N-000012 )
+ )
+ ( /4B85B72F $noname  D203 LED {Lib=LED}
+  (    1 N-000010 )
+  (    2 N-000005 )
+ )
+ ( /4B85B72E $noname  D202 LED {Lib=LED}
+  (    1 N-000009 )
+  (    2 N-000010 )
+ )
+ ( /4B85B72D $noname  D201 LED {Lib=LED}
+  (    1 /LED+ )
+  (    2 N-000009 )
+ )
+ ( /4B85B713 $noname  D105 LED {Lib=LED}
+  (    1 N-000011 )
+  (    2 /LED- )
+ )
+ ( /4B85B709 $noname  D104 LED {Lib=LED}
+  (    1 N-000006 )
+  (    2 N-000011 )
+ )
+ ( /4B85B708 $noname  D103 LED {Lib=LED}
+  (    1 N-000007 )
+  (    2 N-000006 )
+ )
+ ( /4B85B6F8 $noname  D102 LED {Lib=LED}
+  (    1 N-000008 )
+  (    2 N-000007 )
+ )
+ ( /4B85B6EE $noname  D101 LED {Lib=LED}
+  (    1 /LED+ )
+  (    2 N-000008 )
+ )
+ ( /4B85B6DC $noname  CCB1 CURRENTCONTROLBOARD {Lib=CURRENTCONTROLBOARD}
+  (    1 /LED+ )
+  (    2 GND )
+  (    3 /LED- )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D505
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D504
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D503
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D502
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D501
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D405
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D404
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D403
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D402
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D401
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D305
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D304
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D303
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D302
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D301
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D205
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D204
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D203
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D202
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D201
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D105
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D104
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D103
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D102
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D101
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ P2 7
+ P1 7
+Net 2 "" ""
+ P2 5
+ P1 5
+Net 3 "" ""
+ P2 3
+ P1 3
+Net 4 "" ""
+ P2 1
+ P1 1
+Net 5 "" ""
+ D204 1
+ D203 2
+Net 6 "" ""
+ D104 1
+ D103 2
+Net 7 "" ""
+ D103 1
+ D102 2
+Net 8 "" ""
+ D102 1
+ D101 2
+Net 9 "" ""
+ D202 1
+ D201 2
+Net 10 "" ""
+ D203 1
+ D202 2
+Net 11 "" ""
+ D105 1
+ D104 2
+Net 12 "" ""
+ D205 1
+ D204 2
+Net 13 "" ""
+ D404 1
+ D403 2
+Net 14 "" ""
+ D304 1
+ D303 2
+Net 15 "" ""
+ D303 1
+ D302 2
+Net 16 "" ""
+ D302 1
+ D301 2
+Net 17 "" ""
+ D402 1
+ D401 2
+Net 18 "" ""
+ D403 1
+ D402 2
+Net 19 "" ""
+ D305 1
+ D304 2
+Net 20 "" ""
+ D405 1
+ D404 2
+Net 21 "" ""
+ D504 1
+ D503 2
+Net 22 "" ""
+ D502 1
+ D501 2
+Net 23 "" ""
+ D503 1
+ D502 2
+Net 24 "" ""
+ D505 1
+ D504 2
+Net 25 "" ""
+ P2 2
+ P1 2
+Net 26 "" ""
+ P2 4
+ P1 4
+Net 27 "" ""
+ P2 6
+ P1 6
+Net 28 "" ""
+ P2 8
+ P1 8
+Net 30 "/LED-" "LED-"
+ D505 2
+ D405 2
+ D305 2
+ D205 2
+ D105 2
+ CCB1 3
+Net 31 "/LED+" "LED+"
+ D501 1
+ D401 1
+ D301 1
+ D201 1
+ D101 1
+ CCB1 1
+}
+#End

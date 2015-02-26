@@ -1,0 +1,406 @@
+
+(session LED_ARRAY_BUCKPUCK_3x3.ses
+  (base_design LED_ARRAY_BUCKPUCK_3x3.dsn)
+  (placement
+    (resolution mil 10)
+    (component BUCKPUCK
+      (place BP1 54000 -36000 front 270)
+    )
+    (component POT_296
+      (place RV1 64000 -55000 front 0)
+    )
+    (component PROBEPOINT
+      (place PP4 66000 -36000 front 90)
+      (place PP3 62000 -36000 front 270)
+      (place PP2 51000 -47000 front 270)
+      (place PP1 57000 -47000 front 90)
+    )
+    (component SCREW_TERMINAL_2
+      (place P1 54000 -56000 front 0)
+    )
+    (component SM1210
+      (place C1 54000 -47000 front 180)
+    )
+    (component SM2010
+      (place R4 69000 -38000 back 90)
+      (place R3 59000 -38000 back 90)
+      (place R2 49000 -38000 back 90)
+      (place R1 64000 -39000 front 180)
+    )
+    (component TO_269AA
+      (place D1 54000 -51000 front 90)
+    )
+    (component VSMG3700
+      (place D10 69000 -53000 back 0)
+      (place D9 69000 -43000 back 0)
+      (place D8 69000 -33000 back 0)
+      (place D7 59000 -53000 back 0)
+      (place D6 59000 -43000 back 0)
+      (place D5 59000 -33000 back 0)
+      (place D4 49000 -53000 back 0)
+      (place D3 49000 -43000 back 0)
+      (place D2 49000 -33000 back 0)
+    )
+    (component ToggleSwitch
+      (place SW1 64000 -45000 front 270)
+    )
+    (component Mounting_Hole
+      (place Mounting_Hole01 46000 -30000 front 0)
+      (place Mounting_Hole02 72000 -30000 front 0)
+      (place Mounting_Hole03 46000 -56000 front 0)
+      (place Mounting_Hole04 72000 -56000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(20090216-final)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_45:25_mil"
+        (shape
+          (circle Component 450 0 0)
+        )
+        (shape
+          (circle Copper 450 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "N-000013"
+        (wire
+          (path Component 320
+            64000 -46000
+            63073 -46000
+            54000 -36927
+            54000 -36000
+          )
+        )
+        (wire
+          (path Copper 320
+            64000 -46000
+            64000 -56180
+          )
+        )
+      )
+      (net "N-000012"
+        (wire
+          (path Component 320
+            64000 -44000
+            62347 -44000
+            55000 -36653
+            55000 -36000
+          )
+        )
+        (wire
+          (path Copper 320
+            64000 -44000
+            63276 -44724
+            63276 -55424
+            62520 -56180
+          )
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Copper 320
+            59000 -53550
+            59000 -54208
+          )
+        )
+        (wire
+          (path Copper 320
+            69000 -53550
+            69000 -54575
+            66528 -57047
+            61839 -57047
+            59000 -54208
+          )
+        )
+        (wire
+          (path Copper 320
+            56000 -53550
+            59000 -53550
+          )
+        )
+        (wire
+          (path Copper 320
+            49000 -53550
+            56000 -53550
+          )
+        )
+        (wire
+          (path Copper 320
+            56000 -53550
+            56000 -36000
+          )
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Component 320
+            61500 -36000
+            62000 -35500
+          )
+        )
+        (wire
+          (path Component 320
+            57000 -36000
+            61500 -36000
+          )
+        )
+        (wire
+          (path Component 320
+            62000 -36500
+            61500 -36000
+          )
+        )
+        (wire
+          (path Component 320
+            62422 -39000
+            62422 -36922
+            62000 -36500
+          )
+        )
+        (wire
+          (path Component 320
+            63040 -39000
+            62422 -39000
+          )
+        )
+      )
+      (net /Vin
+        (wire
+          (path Copper 320
+            57000 -46500
+            57725 -45775
+            57725 -35378
+            57613 -35266
+            53092 -35266
+            53000 -35358
+            53000 -36000
+          )
+        )
+        (wire
+          (path Copper 320
+            57000 -47500
+            57000 -46500
+          )
+        )
+        (wire
+          (path Component 320
+            54600 -47421
+            56921 -47421
+            57000 -47500
+          )
+        )
+        (wire
+          (path Component 320
+            54600 -47421
+            54600 -47843
+          )
+        )
+        (wire
+          (path Component 320
+            54600 -47000
+            54600 -47421
+          )
+        )
+        (wire
+          (path Component 320
+            54500 -49750
+            54500 -47943
+            54600 -47843
+          )
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path Component 320
+            53500 -49750
+            53500 -48982
+          )
+        )
+        (wire
+          (path Component 320
+            53500 -48982
+            53400 -48882
+            53400 -47421
+          )
+        )
+        (wire
+          (path Copper 320
+            51000 -46500
+            50124 -45624
+            50124 -36876
+            51000 -36000
+          )
+        )
+        (wire
+          (path Component 320
+            51079 -47421
+            51000 -47500
+          )
+        )
+        (wire
+          (path Component 320
+            53400 -47421
+            51079 -47421
+          )
+        )
+        (wire
+          (path Component 320
+            51079 -47421
+            51079 -46579
+            51000 -46500
+          )
+        )
+        (wire
+          (path Component 320
+            53400 -47000
+            53400 -47421
+          )
+        )
+      )
+      (net "N-000017"
+        (wire
+          (path Copper 320
+            66000 -32792
+            67805 -32792
+            68147 -32450
+          )
+        )
+        (wire
+          (path Copper 320
+            59000 -32450
+            65658 -32450
+            66000 -32792
+          )
+        )
+        (wire
+          (path Copper 320
+            66000 -32792
+            66000 -35500
+          )
+        )
+        (wire
+          (path Copper 320
+            69000 -32450
+            68147 -32450
+          )
+        )
+        (wire
+          (path Copper 320
+            66000 -35500
+            66000 -36500
+          )
+        )
+        (wire
+          (path Component 320
+            64960 -39000
+            64960 -37540
+            66000 -36500
+          )
+        )
+        (wire
+          (path Copper 320
+            49000 -32450
+            59000 -32450
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Component 320
+            54500 -52250
+            54500 -56000
+          )
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path Component 320
+            53500 -52250
+            53500 -56000
+          )
+        )
+      )
+      (net "N-000016"
+        (wire
+          (path Copper 320
+            69000 -33550
+            69000 -37040
+          )
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Copper 320
+            69000 -42450
+            69000 -38960
+          )
+        )
+      )
+      (net "N-000001"
+        (wire
+          (path Copper 320
+            59000 -33550
+            59000 -37040
+          )
+        )
+      )
+      (net "N-000014"
+        (wire
+          (path Copper 320
+            59000 -42450
+            59000 -38960
+          )
+        )
+      )
+      (net "N-000015"
+        (wire
+          (path Copper 320
+            49000 -33550
+            49000 -37040
+          )
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Copper 320
+            49000 -42450
+            49000 -38960
+          )
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path Copper 320
+            69000 -43550
+            69000 -52450
+          )
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Copper 320
+            59000 -43550
+            59000 -52450
+          )
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Copper 320
+            49000 -43550
+            49000 -52450
+          )
+        )
+      )
+    )
+  )
+)

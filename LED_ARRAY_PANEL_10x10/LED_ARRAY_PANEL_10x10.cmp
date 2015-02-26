@@ -1,0 +1,724 @@
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2509)-final date = Tue 04 May 2010 03:20:22 PM PDT
+
+BeginCmp
+TimeStamp = /4B85B6DC;
+Reference = CCB1;
+ValeurCmp = CURRENTCONTROLBOARD;
+IdModule  = Header_Shrouded_3_Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B6EE;
+Reference = D0101;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B6F8;
+Reference = D0102;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B708;
+Reference = D0103;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B709;
+Reference = D0104;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B713;
+Reference = D0105;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4784;
+Reference = D0106;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4783;
+Reference = D0107;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4782;
+Reference = D0108;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4781;
+Reference = D0109;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4780;
+Reference = D0110;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B72D;
+Reference = D0201;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B72E;
+Reference = D0202;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B72F;
+Reference = D0203;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B730;
+Reference = D0204;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B731;
+Reference = D0205;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF477F;
+Reference = D0206;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF477E;
+Reference = D0207;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF477D;
+Reference = D0208;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF477C;
+Reference = D0209;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF477B;
+Reference = D0210;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78B;
+Reference = D0301;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78C;
+Reference = D0302;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78D;
+Reference = D0303;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78E;
+Reference = D0304;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B78F;
+Reference = D0305;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF477A;
+Reference = D0306;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4779;
+Reference = D0307;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4778;
+Reference = D0308;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4777;
+Reference = D0309;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4776;
+Reference = D0310;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B790;
+Reference = D0401;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B791;
+Reference = D0402;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B792;
+Reference = D0403;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B793;
+Reference = D0404;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B794;
+Reference = D0405;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4775;
+Reference = D0406;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4774;
+Reference = D0407;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4773;
+Reference = D0408;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4772;
+Reference = D0409;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4771;
+Reference = D0410;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B798;
+Reference = D0501;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B799;
+Reference = D0502;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B79A;
+Reference = D0503;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B79B;
+Reference = D0504;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B85B79C;
+Reference = D0505;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4770;
+Reference = D0506;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF476F;
+Reference = D0507;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF476E;
+Reference = D0508;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF476D;
+Reference = D0509;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF476C;
+Reference = D0510;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4665;
+Reference = D0601;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4664;
+Reference = D0602;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4663;
+Reference = D0603;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4662;
+Reference = D0604;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4661;
+Reference = D0605;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4753;
+Reference = D0606;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4754;
+Reference = D0607;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4755;
+Reference = D0608;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4756;
+Reference = D0609;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4757;
+Reference = D0610;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4660;
+Reference = D0701;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF465F;
+Reference = D0702;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF465E;
+Reference = D0703;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF465D;
+Reference = D0704;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF465C;
+Reference = D0705;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4758;
+Reference = D0706;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4759;
+Reference = D0707;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF475A;
+Reference = D0708;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF475B;
+Reference = D0709;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF475C;
+Reference = D0710;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF465B;
+Reference = D0801;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF465A;
+Reference = D0802;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4659;
+Reference = D0803;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4658;
+Reference = D0804;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4657;
+Reference = D0805;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF475D;
+Reference = D0806;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF475E;
+Reference = D0807;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF475F;
+Reference = D0808;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4760;
+Reference = D0809;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4761;
+Reference = D0810;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4656;
+Reference = D0901;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4655;
+Reference = D0902;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4654;
+Reference = D0903;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4653;
+Reference = D0904;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4652;
+Reference = D0905;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4762;
+Reference = D0906;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4763;
+Reference = D0907;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4764;
+Reference = D0908;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4765;
+Reference = D0909;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4766;
+Reference = D0910;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4651;
+Reference = D1001;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4650;
+Reference = D1002;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF464F;
+Reference = D1003;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF464E;
+Reference = D1004;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF464D;
+Reference = D1005;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4767;
+Reference = D1006;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4768;
+Reference = D1007;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF4769;
+Reference = D1008;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF476A;
+Reference = D1009;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDF476B;
+Reference = D1010;
+ValeurCmp = LED;
+IdModule  = LED_VSMG3700_SMALL_FOOTPRINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE09D2F;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = HEADER_4_PIN_PASS_THRU;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE09D34;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = HEADER_4_PIN_PASS_THRU;
+EndCmp
+
+EndListe

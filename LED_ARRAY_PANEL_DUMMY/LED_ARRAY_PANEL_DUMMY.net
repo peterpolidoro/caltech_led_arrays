@@ -1,0 +1,36 @@
+# EESchema Netlist Version 1.1 created  Tue 04 May 2010 02:53:30 PM PDT
+(
+ ( /4B86CF65 HEADER_8_PIN_SSHR P1 HEADER_FEMALE_PINS
+  ( 1 N-000002 )
+  ( 2 N-000003 )
+  ( 3 N-000004 )
+  ( 4 N-000005 )
+  ( 5 N-000006 )
+  ( 6 N-000007 )
+  ( 7 N-000008 )
+  ( 8 N-000009 )
+ )
+ ( /4B86CF77 HEADER_8_PIN_THRU_HOLE P2 HEADER_MALE_PINS
+  ( 1 N-000002 )
+  ( 2 N-000003 )
+  ( 3 N-000004 )
+  ( 4 N-000005 )
+  ( 5 N-000006 )
+  ( 6 N-000007 )
+  ( 7 N-000008 )
+  ( 8 N-000009 )
+ )
+ ( /4BE096DC HEADER_4_PIN_PASS_THRU P3 CONN_4
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 GND )
+ )
+ ( /4BE096E1 HEADER_4_PIN_PASS_THRU P4 CONN_4
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 GND )
+ )
+)
+*

@@ -1,0 +1,184 @@
+(pcb /home/peter/subversion/caltech/Kicad/projects/LED_Array/LED_ARRAY_PANEL_DUMMY/LED_ARRAY_PANEL_DUMMY.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "Kicad's PCBNEW")
+    (host_version "(20100406 SVN-R2509)-final")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Component
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Copper
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  5225 -3675  6475 -3675  6475 -4525  5225 -4525  5225 -3675)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 8)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component HEADER_8_PIN_THRU_HOLE
+      (place P2 6225 -4100 front 90 (PN HEADER_MALE_PINS))
+    )
+    (component HEADER_8_PIN_SSHR
+      (place P1 5560 -4100 front 90 (PN HEADER_FEMALE_PINS))
+    )
+    (component HEADER_4_PIN_PASS_THRU
+      (place HEADER_4_PIN_PASS_THRU_01 5850 -3850 front 0 (PN 01))
+      (place HEADER_4_PIN_PASS_THRU_02 5850 -4350 front 0 (PN 02))
+    )
+  )
+  (library
+    (image HEADER_8_PIN_THRU_HOLE
+      (outline (path signal 15  350 -50  350 -150))
+      (outline (path signal 15  250 -50  250 -150))
+      (outline (path signal 15  150 -50  150 -150))
+      (outline (path signal 15  50 -50  50 -150))
+      (outline (path signal 15  -50 -50  -50 -150))
+      (outline (path signal 15  -150 -50  -150 -150))
+      (outline (path signal 15  -250 -50  -250 -150))
+      (outline (path signal 15  -350 -50  -350 -150))
+      (outline (path signal 15  -400 50  -400 -50))
+      (outline (path signal 15  -400 -50  400 -50))
+      (outline (path signal 15  400 -50  400 50))
+      (outline (path signal 15  400 50  -400 50))
+      (pin Rect[A]Pad_60x60_mil 1 -350 0)
+      (pin Round[A]Pad_60_mil 2 -250 0)
+      (pin Round[A]Pad_60_mil 3 -150 0)
+      (pin Round[A]Pad_60_mil 4 -50 0)
+      (pin Round[A]Pad_60_mil 5 50 0)
+      (pin Round[A]Pad_60_mil 6 150 0)
+      (pin Round[A]Pad_60_mil 7 250 0)
+      (pin Round[A]Pad_60_mil 8 350 0)
+    )
+    (image HEADER_8_PIN_SSHR
+      (outline (path signal 15  -410 330  410 330))
+      (outline (path signal 15  410 330  410 60))
+      (outline (path signal 15  410 60  -410 60))
+      (outline (path signal 15  -410 60  -410 330))
+      (pin Rect[A]Pad_60x60_mil 1 -350 0)
+      (pin Round[A]Pad_60_mil 2 -250 0)
+      (pin Round[A]Pad_60_mil 3 -150 0)
+      (pin Round[A]Pad_60_mil 4 -50 0)
+      (pin Round[A]Pad_60_mil 5 50 0)
+      (pin Round[A]Pad_60_mil 6 150 0)
+      (pin Round[A]Pad_60_mil 7 250 0)
+      (pin Round[A]Pad_60_mil 8 350 0)
+    )
+    (image HEADER_4_PIN_PASS_THRU
+      (pin Rect[A]Pad_50x50_mil 1 -150 0)
+      (pin Round[A]Pad_50_mil 2 -50 0)
+      (pin Round[A]Pad_50_mil 3 50 0)
+      (pin Round[A]Pad_50_mil 4 150 0)
+      (pin Rect[T]Pad_40x70_mil @1 -150 80)
+      (pin Rect[T]Pad_40x70_mil @2 -50 -80)
+      (pin Rect[T]Pad_40x70_mil @3 50 80)
+      (pin Rect[T]Pad_40x70_mil @4 150 -80)
+    )
+    (padstack Round[A]Pad_50_mil
+      (shape (circle Component 50))
+      (shape (circle Copper 50))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Component 60))
+      (shape (circle Copper 60))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_40x70_mil
+      (shape (rect Component -20 -35 20 35))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_50x50_mil
+      (shape (rect Component -25 -25 25 25))
+      (shape (rect Copper -25 -25 25 25))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_60x60_mil
+      (shape (rect Component -30 -30 30 30))
+      (shape (rect Copper -30 -30 30 30))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Component 35))
+      (shape (circle Copper 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Component 35))
+      (shape (circle Copper 35))
+      (attach off)
+    )
+  )
+  (network
+    (net "N-000001"
+      (pins P2-8 P1-8)
+    )
+    (net "N-000002"
+      (pins P2-7 P1-7)
+    )
+    (net "N-000003"
+      (pins P2-6 P1-6)
+    )
+    (net "N-000004"
+      (pins P2-5 P1-5)
+    )
+    (net "N-000005"
+      (pins P2-4 P1-4)
+    )
+    (net "N-000006"
+      (pins P2-3 P1-3)
+    )
+    (net "N-000007"
+      (pins P2-2 P1-2)
+    )
+    (net "N-000008"
+      (pins P2-1 P1-1)
+    )
+    (class kicad_default ""
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 8)
+        (clearance 10.1)
+      )
+    )
+    (class Jumper "N-000001" "N-000002" "N-000003" "N-000004" "N-000005" "N-000006"
+      "N-000007" "N-000008"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 40)
+        (clearance 10.1)
+      )
+    )
+    (class Power
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 40)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

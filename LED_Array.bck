@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0  Date: Thu 25 Feb 2010 02:55:31 PM PST
+#
+$CMP CONN_8
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_8_REV
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP PROBEPOINT
+D Probe Point
+K probepoint
+$ENDCMP
+#
+#End Doc Library

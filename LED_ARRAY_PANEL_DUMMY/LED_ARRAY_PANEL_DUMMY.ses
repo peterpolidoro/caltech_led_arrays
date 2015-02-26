@@ -1,0 +1,128 @@
+
+(session LED_ARRAY_PANEL_DUMMY.ses
+  (base_design LED_ARRAY_PANEL_DUMMY.dsn)
+  (placement
+    (resolution mil 10)
+    (component HEADER_8_PIN_THRU_HOLE
+      (place P2 62250 -41000 front 90)
+    )
+    (component HEADER_8_PIN_SSHR
+      (place P1 55600 -41000 front 90)
+    )
+    (component HEADER_4_PIN_PASS_THRU
+      (place HEADER_4_PIN_PASS_THRU_01 58500 -38500 front 0)
+      (place HEADER_4_PIN_PASS_THRU_02 58500 -43500 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(20100406 SVN-R2509)-final")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Component 350 0 0)
+        )
+        (shape
+          (circle Copper 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Component 350 0 0)
+        )
+        (shape
+          (circle Copper 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "N-000001"
+        (wire
+          (path Copper 400
+            55600 -37500
+            62250 -37500
+          )
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Copper 400
+            55600 -38500
+            56197 -39097
+            61653 -39097
+            62250 -38500
+          )
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Copper 400
+            55600 -39500
+            55996 -39896
+            61854 -39896
+            62250 -39500
+          )
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path Component 400
+            55600 -40500
+            62250 -40500
+          )
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Component 400
+            55600 -41500
+            62250 -41500
+          )
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Copper 400
+            55600 -42500
+            62250 -42500
+          )
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path Copper 400
+            55600 -43500
+            55727 -43500
+            56291 -44064
+            60386 -44064
+            60950 -43500
+            62250 -43500
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Copper 400
+            62250 -44500
+            61647 -44500
+          )
+        )
+        (wire
+          (path Copper 400
+            55600 -44500
+            55714 -44614
+            61533 -44614
+            61647 -44500
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,70 @@
+# EESchema Netlist Version 1.1 created  Mon 08 Feb 2010 04:35:52 PM PST
+(
+ ( /4B70889F BOARDBOARDHEADER02 BBH1 LED+
+  ( 1 /LED+ )
+  ( 2 /LED+ )
+ )
+ ( /4B7088AA BOARDBOARDHEADER02 BBH2 LED-
+  ( 1 /LED- )
+  ( 2 /LED- )
+ )
+ ( /4B708951 BOARDBOARDHEADER02 BBH3 GND
+  ( 1 /GND )
+  ( 2 /GND )
+ )
+ ( /4B6750C4 BUCKPUCK BP1 BUCKPUCK
+  ( 1 N-000005 )
+  ( 2 /LED- )
+  ( 3 N-000003 )
+  ( 4 N-000004 )
+  ( 5 /Vin )
+  ( 6 /GND )
+ )
+ ( /4B5F73D3 SM1210 C1 10uF
+  ( 1 /Vin )
+  ( 2 /GND )
+ )
+ ( /4B5F750E TO_269AA D1 BRIDGE
+  ( 1 /GND )
+  ( 2 N-000001 )
+  ( 3 /Vin )
+  ( 4 N-000002 )
+ )
+ ( /4B5F7405 SCREW_TERMINAL_2 P1 Power
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /4B5F5C94 SM2010 R1 0.1
+  ( 1 /LED+ )
+  ( 2 N-000005 )
+ )
+ ( /4B67540F POT_296_PERPENDICULAR RV1 5k
+  ( 1 N-000003 )
+  ( 2 N-000004 )
+  ( 3 ? )
+ )
+ ( /4B5F7E76 ToggleSwitch SW1 SPST
+  ( 1 N-000003 )
+  ( 2 N-000004 )
+ )
+ ( /4B708BA0 TESTPOINT TP1 CURRENTSENSE-
+  ( 1 /LED+ )
+ )
+ ( /4B708BAA TESTPOINT TP2 CURRENTSENSE+
+  ( 1 N-000005 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

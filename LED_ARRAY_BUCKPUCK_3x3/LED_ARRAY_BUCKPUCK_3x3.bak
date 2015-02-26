@@ -1,0 +1,376 @@
+EESchema Schematic File Version 2  date Mon 01 Feb 2010 05:18:14 PM PST
+LIBS:power,/home/peter/subversion/caltech/Kicad/projects/LED_Array/LED_Array,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./LED_ARRAY_BUCKPUCK_3x3.cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title "LED Array 3x3"
+Date "1 feb 2010"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 7650 5650 0    60   ~ 0
+LED-
+Text Label 8150 3100 0    60   ~ 0
+LED+
+Text Label 5200 3400 0    60   ~ 0
+GND
+Connection ~ 8000 3100
+Wire Wire Line
+	8000 3300 8000 3100
+Wire Wire Line
+	8800 3300 8800 3100
+Wire Wire Line
+	8800 3100 7450 3100
+Wire Wire Line
+	8400 3700 8400 3850
+Wire Wire Line
+	8800 4350 8800 4450
+Wire Wire Line
+	8000 4350 8000 4450
+Connection ~ 6000 4050
+Wire Wire Line
+	6000 4450 6000 3800
+Connection ~ 8000 5650
+Wire Wire Line
+	8000 5650 8000 5350
+Wire Wire Line
+	8800 5350 8800 5650
+Wire Wire Line
+	8800 5650 7550 5650
+Wire Wire Line
+	7550 5650 7550 3250
+Wire Wire Line
+	7550 3250 6600 3250
+Wire Wire Line
+	7800 2850 7600 2850
+Wire Wire Line
+	6900 2850 6700 2850
+Connection ~ 5400 3650
+Connection ~ 5400 3400
+Wire Wire Line
+	5400 3650 5400 3400
+Connection ~ 4850 4200
+Wire Wire Line
+	4850 4200 4850 3600
+Wire Wire Line
+	4750 3100 5900 3100
+Wire Wire Line
+	2750 3000 2750 2250
+Wire Wire Line
+	2750 2250 3900 2250
+Connection ~ 4850 3100
+Wire Wire Line
+	4850 3100 4850 3200
+Wire Wire Line
+	5300 3650 5500 3650
+Wire Wire Line
+	5500 2950 5300 2950
+Wire Wire Line
+	8800 4850 8800 4950
+Wire Wire Line
+	8400 4850 8400 4950
+Wire Wire Line
+	8000 4850 8000 4950
+Wire Wire Line
+	2750 3200 2750 3950
+Wire Wire Line
+	2750 3950 3900 3950
+Wire Wire Line
+	5400 3100 5400 2950
+Connection ~ 5400 3100
+Connection ~ 5400 2950
+Wire Wire Line
+	4800 2800 4800 3100
+Connection ~ 4800 3100
+Wire Wire Line
+	3800 2050 3800 2250
+Connection ~ 3800 2250
+Wire Wire Line
+	3050 3100 3050 4200
+Wire Wire Line
+	3050 4200 5100 4200
+Wire Wire Line
+	5100 4200 5100 3400
+Wire Wire Line
+	5100 3400 5900 3400
+Wire Wire Line
+	4350 4200 4350 4050
+Connection ~ 4350 4200
+Wire Wire Line
+	6950 3100 6600 3100
+Wire Wire Line
+	6800 2850 6800 3100
+Connection ~ 6800 3100
+Connection ~ 6800 2850
+Wire Wire Line
+	7700 3100 7700 2850
+Connection ~ 7700 3100
+Connection ~ 7700 2850
+Wire Wire Line
+	8400 5350 8400 5650
+Connection ~ 8400 5650
+Wire Wire Line
+	6200 3600 6200 3800
+Wire Wire Line
+	6200 3800 6000 3800
+Wire Wire Line
+	6000 4050 6150 4050
+Wire Wire Line
+	6400 3900 6400 3600
+Wire Wire Line
+	6400 3750 7000 3750
+Wire Wire Line
+	7000 3750 7000 4450
+Connection ~ 6400 3750
+Wire Wire Line
+	8400 4350 8400 4450
+Wire Wire Line
+	8000 3700 8000 3850
+Wire Wire Line
+	8800 3700 8800 3850
+Wire Wire Line
+	8400 3300 8400 3100
+Connection ~ 8400 3100
+NoConn ~ 6650 4050
+$Comp
+L POT RV1
+U 1 1 4B67540F
+P 6400 4050
+F 0 "RV1" H 6400 3950 50  0000 C CNN
+F 1 "5k" H 6400 4050 50  0000 C CNN
+	1    6400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROBEPOINT PP4
+U 1 1 4B675321
+P 7700 2650
+F 0 "PP4" H 7900 2650 60  0000 C CNN
+F 1 "CurrentSense-" H 7700 2500 60  0000 C CNN
+	1    7700 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L BUCKPUCK BP1
+U 1 1 4B6750C4
+P 6250 3250
+F 0 "BP1" H 6600 3050 60  0000 C CNN
+F 1 "BUCKPUCK_350mA" H 6250 3550 60  0000 C CNN
+	1    6250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BRIDGE D1
+U 1 1 4B5F750E
+P 3900 3100
+F 0 "D1" H 3900 3150 70  0000 C CNN
+F 1 "BRIDGE" H 3900 3050 70  0000 C CNN
+	1    3900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 4B61DEC3
+P 4350 4050
+F 0 "#FLG01" H 4350 4320 30  0001 C CNN
+F 1 "PWR_FLAG" H 4350 4280 30  0000 C CNN
+	1    4350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 4B61DEA9
+P 3800 2050
+F 0 "#FLG02" H 3800 2320 30  0001 C CNN
+F 1 "PWR_FLAG" H 3800 2280 30  0000 C CNN
+	1    3800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 4B61DE8F
+P 4800 2800
+F 0 "#FLG03" H 4800 3070 30  0001 C CNN
+F 1 "PWR_FLAG" H 4800 3030 30  0000 C CNN
+	1    4800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROBEPOINT PP3
+U 1 1 4B60E8AA
+P 6800 2650
+F 0 "PP3" H 7000 2650 60  0000 C CNN
+F 1 "CurrentSense+" H 6800 2500 60  0000 C CNN
+	1    6800 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L PROBEPOINT PP2
+U 1 1 4B60E8A3
+P 5400 3850
+F 0 "PP2" H 5600 3850 60  0000 C CNN
+F 1 "GND" H 5400 3700 60  0000 C CNN
+	1    5400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROBEPOINT PP1
+U 1 1 4B60E89C
+P 5400 2750
+F 0 "PP1" H 5600 2750 60  0000 C CNN
+F 1 "Vin" H 5400 2600 60  0000 C CNN
+	1    5400 2750
+	-1   0    0    1   
+$EndComp
+Text Label 4950 3100 0    60   ~ 0
+Vin
+$Comp
+L SPST SW1
+U 1 1 4B5F7E76
+P 6500 4450
+F 0 "SW1" H 6500 4550 70  0000 C CNN
+F 1 "SPST" H 6500 4350 70  0000 C CNN
+	1    6500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 4B5F7405
+P 2400 3100
+F 0 "P1" V 2350 3100 40  0000 C CNN
+F 1 "Power" V 2450 3100 40  0000 C CNN
+	1    2400 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C1
+U 1 1 4B5F73D3
+P 4850 3400
+F 0 "C1" H 4700 3500 50  0000 L CNN
+F 1 "10uF" H 4550 3300 50  0000 L CNN
+	1    4850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 4B5F5C94
+P 7200 3100
+F 0 "R1" V 7280 3100 50  0000 C CNN
+F 1 "0.1" V 7200 3100 50  0000 C CNN
+	1    7200 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 4B5F4BB7
+P 8800 4100
+F 0 "R4" V 8880 4100 50  0000 C CNN
+F 1 "10" V 8800 4100 50  0000 C CNN
+	1    8800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4B5F4BB2
+P 8400 4100
+F 0 "R3" V 8480 4100 50  0000 C CNN
+F 1 "10" V 8400 4100 50  0000 C CNN
+	1    8400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4B5F4BA9
+P 8000 4100
+F 0 "R2" V 8080 4100 50  0000 C CNN
+F 1 "10" V 8000 4100 50  0000 C CNN
+	1    8000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D10
+U 1 1 4B5F4B68
+P 8800 5150
+F 0 "D10" H 8800 5250 50  0000 C CNN
+F 1 "LED" H 8800 5050 50  0000 C CNN
+	1    8800 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D9
+U 1 1 4B5F4B67
+P 8800 4650
+F 0 "D9" H 8800 4750 50  0000 C CNN
+F 1 "LED" H 8800 4550 50  0000 C CNN
+	1    8800 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D8
+U 1 1 4B5F4B66
+P 8800 3500
+F 0 "D8" H 8800 3600 50  0000 C CNN
+F 1 "LED" H 8800 3400 50  0000 C CNN
+	1    8800 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 4B5F4B59
+P 8400 5150
+F 0 "D7" H 8400 5250 50  0000 C CNN
+F 1 "LED" H 8400 5050 50  0000 C CNN
+	1    8400 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 4B5F4B58
+P 8400 4650
+F 0 "D6" H 8400 4750 50  0000 C CNN
+F 1 "LED" H 8400 4550 50  0000 C CNN
+	1    8400 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 4B5F4B57
+P 8400 3500
+F 0 "D5" H 8400 3600 50  0000 C CNN
+F 1 "LED" H 8400 3400 50  0000 C CNN
+	1    8400 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 4B5F4B30
+P 8000 5150
+F 0 "D4" H 8000 5250 50  0000 C CNN
+F 1 "LED" H 8000 5050 50  0000 C CNN
+	1    8000 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 4B5F4B28
+P 8000 4650
+F 0 "D3" H 8000 4750 50  0000 C CNN
+F 1 "LED" H 8000 4550 50  0000 C CNN
+	1    8000 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 4B5F4B1F
+P 8000 3500
+F 0 "D2" H 8000 3600 50  0000 C CNN
+F 1 "LED" H 8000 3400 50  0000 C CNN
+	1    8000 3500
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,297 @@
+# EESchema Netlist Version 1.1 created  Mon 01 Feb 2010 05:18:19 PM PST
+(
+ ( /4B67540F $noname  RV1 5k {Lib=POT}
+  (    1 N-000012 )
+  (    2 N-000013 )
+  (    3 ? )
+ )
+ ( /4B675321 $noname  PP4 CurrentSense- {Lib=PROBEPOINT}
+  (    1 /LED+ )
+  (    2 /LED+ )
+ )
+ ( /4B6750C4 $noname  BP1 BUCKPUCK_350mA {Lib=BUCKPUCK}
+  (    1 N-000010 )
+  (    2 /LED- )
+  (    3 N-000012 )
+  (    4 N-000013 )
+  (    5 /Vin )
+  (    6 /GND )
+ )
+ ( /4B5F750E $noname  D1 BRIDGE {Lib=BRIDGE}
+  (    1 /GND )
+  (    2 N-000007 )
+  (    3 /Vin )
+  (    4 N-000008 )
+ )
+ ( /4B60E8AA $noname  PP3 CurrentSense+ {Lib=PROBEPOINT}
+  (    1 N-000010 )
+  (    2 N-000010 )
+ )
+ ( /4B60E8A3 $noname  PP2 GND {Lib=PROBEPOINT}
+  (    1 /GND )
+  (    2 /GND )
+ )
+ ( /4B60E89C $noname  PP1 Vin {Lib=PROBEPOINT}
+  (    1 /Vin )
+  (    2 /Vin )
+ )
+ ( /4B5F7E76 $noname  SW1 SPST {Lib=SPST}
+  (    1 N-000012 )
+  (    2 N-000013 )
+ )
+ ( /4B5F7405 $noname  P1 Power {Lib=CONN_2}
+  (    1 N-000007 )
+  (    2 N-000008 )
+ )
+ ( /4B5F73D3 $noname  C1 10uF {Lib=C}
+  (    1 /Vin )
+  (    2 /GND )
+ )
+ ( /4B5F5C94 $noname  R1 0.1 {Lib=R}
+  (    1 /LED+ )
+  (    2 N-000010 )
+ )
+ ( /4B5F4BB7 $noname  R4 10 {Lib=R}
+  (    1 N-000016 )
+  (    2 N-000002 )
+ )
+ ( /4B5F4BB2 $noname  R3 10 {Lib=R}
+  (    1 N-000001 )
+  (    2 N-000014 )
+ )
+ ( /4B5F4BA9 $noname  R2 10 {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000003 )
+ )
+ ( /4B5F4B68 $noname  D10 LED {Lib=LED}
+  (    1 N-000004 )
+  (    2 /LED- )
+ )
+ ( /4B5F4B67 $noname  D9 LED {Lib=LED}
+  (    1 N-000002 )
+  (    2 N-000004 )
+ )
+ ( /4B5F4B66 $noname  D8 LED {Lib=LED}
+  (    1 /LED+ )
+  (    2 N-000016 )
+ )
+ ( /4B5F4B59 $noname  D7 LED {Lib=LED}
+  (    1 N-000005 )
+  (    2 /LED- )
+ )
+ ( /4B5F4B58 $noname  D6 LED {Lib=LED}
+  (    1 N-000014 )
+  (    2 N-000005 )
+ )
+ ( /4B5F4B57 $noname  D5 LED {Lib=LED}
+  (    1 /LED+ )
+  (    2 N-000001 )
+ )
+ ( /4B5F4B30 $noname  D4 LED {Lib=LED}
+  (    1 N-000006 )
+  (    2 /LED- )
+ )
+ ( /4B5F4B28 $noname  D3 LED {Lib=LED}
+  (    1 N-000003 )
+  (    2 N-000006 )
+ )
+ ( /4B5F4B1F $noname  D2 LED {Lib=LED}
+  (    1 /LED+ )
+  (    2 N-000015 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component PP4
+ PROBEPOINT
+$endlist
+$component PP3
+ PROBEPOINT
+$endlist
+$component PP2
+ PROBEPOINT
+$endlist
+$component PP1
+ PROBEPOINT
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R3 1
+ D5 2
+Net 2 "" ""
+ R4 2
+ D9 1
+Net 3 "" ""
+ R2 2
+ D3 1
+Net 4 "" ""
+ D10 1
+ D9 2
+Net 5 "" ""
+ D7 1
+ D6 2
+Net 6 "" ""
+ D4 1
+ D3 2
+Net 7 "" ""
+ D1 2
+ P1 1
+Net 8 "" ""
+ D1 4
+ P1 2
+Net 9 "/GND" "GND"
+ BP1 6
+ D1 1
+ PP2 1
+ PP2 2
+ C1 2
+Net 10 "" ""
+ BP1 1
+ PP3 1
+ PP3 2
+ R1 2
+Net 11 "/LED-" "LED-"
+ BP1 2
+ D10 2
+ D7 2
+ D4 2
+Net 12 "" ""
+ RV1 1
+ BP1 3
+ SW1 1
+Net 13 "" ""
+ RV1 2
+ BP1 4
+ SW1 2
+Net 14 "" ""
+ R3 2
+ D6 1
+Net 15 "" ""
+ R2 1
+ D2 2
+Net 16 "" ""
+ R4 1
+ D8 2
+Net 17 "/LED+" "LED+"
+ PP4 1
+ PP4 2
+ R1 1
+ D8 1
+ D5 1
+ D2 1
+Net 19 "/Vin" "Vin"
+ BP1 5
+ D1 3
+ PP1 1
+ PP1 2
+ C1 1
+}
+#End

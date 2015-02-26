@@ -1,0 +1,710 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Tue 09 Feb 2010 04:03:12 PM PST
+
+BeginCmp
+TimeStamp = /4B71B76F;
+Reference = D0101;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B777;
+Reference = D0102;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B788;
+Reference = D0103;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B789;
+Reference = D0104;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B797;
+Reference = D0105;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B798;
+Reference = D0106;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B799;
+Reference = D0107;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B79A;
+Reference = D0108;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B7B2;
+Reference = D0109;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B7B3;
+Reference = D0110;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B7FE;
+Reference = D0201;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B7FF;
+Reference = D0202;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B800;
+Reference = D0203;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B801;
+Reference = D0204;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B802;
+Reference = D0205;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B803;
+Reference = D0206;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B804;
+Reference = D0207;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B805;
+Reference = D0208;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B806;
+Reference = D0209;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B807;
+Reference = D0210;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B81A;
+Reference = D0301;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B81B;
+Reference = D0302;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B81C;
+Reference = D0303;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B81D;
+Reference = D0304;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B81E;
+Reference = D0305;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B81F;
+Reference = D0306;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B820;
+Reference = D0307;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B821;
+Reference = D0308;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B822;
+Reference = D0309;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B823;
+Reference = D0310;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B824;
+Reference = D0401;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B825;
+Reference = D0402;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B826;
+Reference = D0403;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B827;
+Reference = D0404;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B828;
+Reference = D0405;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B829;
+Reference = D0406;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B82A;
+Reference = D0407;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B82B;
+Reference = D0408;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B82C;
+Reference = D0409;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B82D;
+Reference = D0410;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B82F;
+Reference = D0501;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B830;
+Reference = D0502;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B831;
+Reference = D0503;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B832;
+Reference = D0504;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B833;
+Reference = D0505;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B834;
+Reference = D0506;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B835;
+Reference = D0507;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B836;
+Reference = D0508;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B837;
+Reference = D0509;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B838;
+Reference = D0510;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B839;
+Reference = D0601;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B83A;
+Reference = D0602;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B83B;
+Reference = D0603;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B83C;
+Reference = D0604;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B83D;
+Reference = D0605;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B83E;
+Reference = D0606;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B83F;
+Reference = D0607;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B840;
+Reference = D0608;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B841;
+Reference = D0609;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B842;
+Reference = D0610;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B843;
+Reference = D0701;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B844;
+Reference = D0702;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B845;
+Reference = D0703;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B846;
+Reference = D0704;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B847;
+Reference = D0705;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B848;
+Reference = D0706;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B849;
+Reference = D0707;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B84A;
+Reference = D0708;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B84B;
+Reference = D0709;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B84C;
+Reference = D0710;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B84D;
+Reference = D0801;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B84E;
+Reference = D0802;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B84F;
+Reference = D0803;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B850;
+Reference = D0804;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B851;
+Reference = D0805;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B852;
+Reference = D0806;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B853;
+Reference = D0807;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B854;
+Reference = D0808;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B855;
+Reference = D0809;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B856;
+Reference = D0810;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B857;
+Reference = D0901;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B858;
+Reference = D0902;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B859;
+Reference = D0903;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B85A;
+Reference = D0904;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B85B;
+Reference = D0905;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B85C;
+Reference = D0906;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B85D;
+Reference = D0907;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B85E;
+Reference = D0908;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B85F;
+Reference = D0909;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B860;
+Reference = D0910;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B861;
+Reference = D1001;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B862;
+Reference = D1002;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B863;
+Reference = D1003;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B864;
+Reference = D1004;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B865;
+Reference = D1005;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B866;
+Reference = D1006;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B867;
+Reference = D1007;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B868;
+Reference = D1008;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B869;
+Reference = D1009;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B86A;
+Reference = D1010;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B71B74E;
+Reference = PB1;
+ValeurCmp = POWERBOARD;
+IdModule  = POWERBOARD;
+EndCmp
+
+EndListe

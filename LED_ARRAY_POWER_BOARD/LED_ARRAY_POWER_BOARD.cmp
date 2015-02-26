@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Mon 08 Feb 2010 04:35:52 PM PST
+
+BeginCmp
+TimeStamp = /4B70889F;
+Reference = BBH1;
+ValeurCmp = LED+;
+IdModule  = BOARDBOARDHEADER02;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B7088AA;
+Reference = BBH2;
+ValeurCmp = LED-;
+IdModule  = BOARDBOARDHEADER02;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B708951;
+Reference = BBH3;
+ValeurCmp = GND;
+IdModule  = BOARDBOARDHEADER02;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6750C4;
+Reference = BP1;
+ValeurCmp = BUCKPUCK;
+IdModule  = BUCKPUCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F73D3;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F750E;
+Reference = D1;
+ValeurCmp = BRIDGE;
+IdModule  = TO_269AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F7405;
+Reference = P1;
+ValeurCmp = Power;
+IdModule  = SCREW_TERMINAL_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F5C94;
+Reference = R1;
+ValeurCmp = 0.1;
+IdModule  = SM2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B67540F;
+Reference = RV1;
+ValeurCmp = 5k;
+IdModule  = POT_296_PERPENDICULAR;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F7E76;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = ToggleSwitch;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B708BA0;
+Reference = TP1;
+ValeurCmp = CURRENTSENSE-;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B708BAA;
+Reference = TP2;
+ValeurCmp = CURRENTSENSE+;
+IdModule  = TESTPOINT;
+EndCmp
+
+EndListe

@@ -1,0 +1,624 @@
+
+(session LED_Array_3x3.ses
+  (base_design LED_Array_3x3.dsn)
+  (placement
+    (resolution mil 10)
+    (component DO_214AC_SMA
+      (place D1 62895 -46213 front 90)
+    )
+    (component ELLATV
+      (place L1 61500 -52500 front 0)
+    )
+    (component MSOP_10
+      (place U1 56500 -46000 front 0)
+    )
+    (component PROBEPOINT
+      (place PP3 61500 -41000 front 0)
+      (place PP2 51500 -41000 front 0)
+      (place PP1 56500 -41000 front 0)
+    )
+    (component SCREW_TERMINAL_2
+      (place P1 56500 -59000 front 0)
+    )
+    (component SM0805
+      (place R8 66500 -32500 back 90)
+      (place R7 56500 -32500 back 90)
+      (place R6 46500 -32500 back 90)
+      (place R4 46900 -52000 front 0)
+      (place R3 53100 -45700 front 270)
+      (place R2 51200 -48200 front 270)
+      (place R1 51200 -45700 front 270)
+      (place C3 58700 -45300 front 90)
+      (place C1 56500 -48500 front 180)
+    )
+    (component SM1210
+      (place C2 60245 -44515 front 270)
+    )
+    (component SM2010
+      (place R5 46500 -44000 front 270)
+    )
+    (component SOD_123
+      (place D2 47200 -48600 front 180)
+    )
+    (component TO_269AA
+      (place D3 56500 -53250 front 90)
+    )
+    (component ToggleSwitch
+      (place SW1 61500 -58250 front 270)
+    )
+    (component VSMG3700
+      (place D12 66500 -56000 back 0)
+      (place D11 66500 -46000 back 0)
+      (place D10 66500 -36000 back 0)
+      (place D9 56500 -56000 back 0)
+      (place D8 56500 -46000 back 0)
+      (place D7 56500 -36000 back 0)
+      (place D6 46500 -56000 back 0)
+      (place D5 46500 -46000 back 0)
+      (place D4 46500 -36000 back 0)
+    )
+    (component POT_296
+      (place RV1 51500 -58500 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(20090216-final)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_45:25_mil"
+        (shape
+          (circle Component 450 0 0)
+        )
+        (shape
+          (circle Copper 450 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "N-000006"
+        (wire
+          (path Component 120
+            62910 -51090
+            62895 -51075
+            62895 -46963
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            57355 -46197
+            57700 -46197
+            58466 -46963
+            62895 -46963
+          )
+          (type protect)
+        )
+      )
+      (net "N-000014"
+        (wire
+          (path Component 120
+            62895 -45463
+            62425 -45463
+            61367 -44405
+            60245 -44405
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            60245 -44405
+            60245 -43915
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            60245 -44405
+            57767 -44405
+            56172 -46000
+            55645 -46000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            53100 -46075
+            53495 -46075
+            53570 -46000
+            55645 -46000
+          )
+          (type protect)
+        )
+      )
+      (net /Vin
+        (wire
+          (path Component 120
+            57700 -45803
+            58323 -46226
+            64319 -46226
+            64767 -45856
+            64767 -41439
+            62926 -39798
+            52802 -39798
+            52000 -41000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            57700 -45803
+            57700 -45955
+            57655 -46000
+            57355 -46000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            52000 -41000
+            51000 -41000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            57355 -46000
+            57010 -46000
+            56875 -46135
+            56875 -48500
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            46500 -43040
+            48960 -43040
+            51000 -41000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            57000 -52000
+            57000 -51455
+            56875 -51330
+            56875 -48500
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            57355 -45803
+            57700 -45803
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            57000 -52000
+            57000 -52545
+            58725 -52545
+            60090 -53910
+          )
+          (type protect)
+        )
+      )
+      (net "N-000020"
+        (wire
+          (path Component 120
+            53100 -45325
+            55953 -45325
+            55984 -45356
+          )
+        )
+        (wire
+          (path Component 120
+            51200 -45325
+            53100 -45325
+          )
+        )
+        (wire
+          (path Component 120
+            55645 -45803
+            55990 -45803
+          )
+        )
+        (wire
+          (path Component 120
+            55984 -45356
+            55984 -45797
+            55990 -45803
+          )
+        )
+        (wire
+          (path Component 120
+            61000 -41000
+            60340 -41000
+            55984 -45356
+          )
+        )
+        (wire
+          (path Copper 200
+            61500 -41000
+            62000 -41000
+          )
+          (type protect)
+        )
+        (wire
+          (path Copper 200
+            61000 -41000
+            61500 -41000
+          )
+          (type protect)
+        )
+        (wire
+          (path Copper 200
+            46500 -32125
+            56500 -32125
+          )
+          (type protect)
+        )
+        (wire
+          (path Copper 200
+            61500 -35100
+            64475 -32125
+            66500 -32125
+          )
+          (type protect)
+        )
+        (wire
+          (path Copper 200
+            61500 -41000
+            61500 -35100
+          )
+          (type protect)
+        )
+        (wire
+          (path Copper 200
+            61500 -35100
+            58500 -32100
+            56525 -32100
+            56500 -32125
+          )
+          (type protect)
+        )
+      )
+      (net "N-000013"
+        (wire
+          (path Component 120
+            51200 -46075
+            51200 -45680
+            55126 -45680
+            55300 -45606
+            55645 -45606
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            51200 -46075
+            51200 -47825
+          )
+          (type protect)
+        )
+      )
+      (net "N-000019"
+        (wire
+          (path Component 120
+            51500 -59680
+            51500 -49116
+            54419 -46197
+            55645 -46197
+          )
+          (type protect)
+        )
+      )
+      (net GND
+        (wire
+          (path Copper 120
+            46700 -56750
+            46500 -56550
+          )
+        )
+        (wire
+          (path Copper 120
+            46700 -56750
+            49950 -56750
+            52980 -59680
+          )
+          (type protect)
+        )
+        (wire
+          (path Copper 120
+            46600 -56750
+            46700 -56750
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            56000 -52272
+            56000 -52000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            52980 -59680
+            52980 -58039
+            55305 -55514
+            55305 -53040
+            56000 -52545
+            56000 -52272
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            58736 -45115
+            58700 -44925
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            56125 -46394
+            56125 -46306
+            57316 -45115
+            58736 -45115
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            58736 -45115
+            60245 -45115
+          )
+          (type protect)
+        )
+        (wire
+          (path Copper 120
+            52980 -59680
+            54185 -59680
+            56500 -57365
+            56500 -56550
+          )
+          (type protect)
+        )
+        (wire
+          (path Copper 120
+            66500 -56550
+            56500 -56550
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            52980 -59680
+            52292 -60368
+            51407 -60368
+            50707 -59968
+            50707 -49063
+            51200 -48870
+            51200 -48575
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            50311 -48442
+            48446 -48442
+            48288 -48600
+            47928 -48600
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            51200 -48575
+            50983 -48575
+            50850 -48442
+            50311 -48442
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            50311 -48442
+            50311 -44636
+            54447 -41000
+            56000 -41000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            56125 -48500
+            56125 -46394
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            57000 -41000
+            56000 -41000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            56125 -46394
+            55645 -46394
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            56000 -52272
+            56125 -52147
+            56125 -48500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000015"
+        (wire
+          (path Component 120
+            57355 -45606
+            58631 -45606
+            58700 -45675
+          )
+          (type protect)
+        )
+      )
+      (net "N-000016"
+        (wire
+          (path Copper 120
+            61500 -57250
+            58750 -57250
+            57000 -59000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Component 120
+            56000 -54500
+            56000 -59000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000021"
+        (wire
+          (path Copper 200
+            66500 -35450
+            66500 -32875
+          )
+          (type protect)
+        )
+      )
+      (net "N-000001"
+        (wire
+          (path Copper 200
+            56500 -35450
+            56500 -32875
+          )
+          (type protect)
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Copper 120
+            46500 -35450
+            46500 -32875
+          )
+          (type protect)
+        )
+      )
+      (net "N-000018"
+        (wire
+          (path Component 120
+            46472 -48600
+            46472 -48860
+            46525 -48913
+            46525 -52000
+          )
+          (type protect)
+        )
+        (wire
+          (path Component 120
+            46472 -48600
+            46472 -45383
+            46500 -45355
+            46500 -44960
+          )
+          (type protect)
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path Component 120
+            50020 -59680
+            50020 -58026
+            47275 -55281
+            47275 -52000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000017"
+        (wire
+          (path Component 120
+            57000 -54500
+            57000 -55045
+            57295 -55045
+            61500 -59250
+          )
+          (type protect)
+        )
+      )
+      (net "N-000012"
+        (wire
+          (path Copper 120
+            66500 -46550
+            66500 -55450
+          )
+          (type protect)
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Copper 120
+            66500 -36550
+            66500 -45450
+          )
+          (type protect)
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Copper 120
+            56500 -46550
+            56500 -55450
+          )
+          (type protect)
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path Copper 120
+            56500 -36550
+            56500 -45450
+          )
+          (type protect)
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Copper 120
+            46500 -46550
+            46500 -55450
+          )
+          (type protect)
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path Copper 120
+            46500 -36550
+            46500 -45450
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)

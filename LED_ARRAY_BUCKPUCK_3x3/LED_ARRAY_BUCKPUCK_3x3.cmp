@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Mon 01 Feb 2010 04:00:59 PM PST
+
+BeginCmp
+TimeStamp = /4B6750C4;
+Reference = BP1;
+ValeurCmp = BUCKPUCK;
+IdModule  = BUCKPUCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F73D3;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F750E;
+Reference = D1;
+ValeurCmp = BRIDGE;
+IdModule  = TO_269AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B1F;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B28;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B30;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B57;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B58;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B59;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B66;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B67;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4B68;
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = VSMG3700;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F7405;
+Reference = P1;
+ValeurCmp = Power;
+IdModule  = SCREW_TERMINAL_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B60E89C;
+Reference = PP1;
+ValeurCmp = Vin;
+IdModule  = PROBEPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B60E8A3;
+Reference = PP2;
+ValeurCmp = GND;
+IdModule  = PROBEPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B60E8AA;
+Reference = PP3;
+ValeurCmp = CurrentSense+;
+IdModule  = PROBEPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B675321;
+Reference = PP4;
+ValeurCmp = CurrentSense-;
+IdModule  = PROBEPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F5C94;
+Reference = R1;
+ValeurCmp = 0.1;
+IdModule  = SM2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4BA9;
+Reference = R2;
+ValeurCmp = 10;
+IdModule  = SM2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4BB2;
+Reference = R3;
+ValeurCmp = 10;
+IdModule  = SM2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F4BB7;
+Reference = R4;
+ValeurCmp = 10;
+IdModule  = SM2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B67540F;
+Reference = RV1;
+ValeurCmp = 5k;
+IdModule  = POT_296;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5F7E76;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = ToggleSwitch;
+EndCmp
+
+EndListe

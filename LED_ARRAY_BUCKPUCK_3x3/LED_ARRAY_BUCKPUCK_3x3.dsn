@@ -1,0 +1,330 @@
+(pcb /home/peter/subversion/caltech/Kicad/projects/LED_Array/LED_ARRAY_BUCKPUCK_3x3/LED_ARRAY_BUCKPUCK_3x3.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "Kicad's PCBNEW")
+    (host_version "(20090216-final)")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Component
+      (type signal)
+      (property 
+        (index 0)
+      )
+    )
+    (layer Copper
+      (type signal)
+      (property 
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  4400 -2800  7400 -2800  7400 -5800  4400 -5800  4400 -2800)
+    )
+    (via "Via[0-1]_45:25_mil")
+    (rule
+      (width 32)
+      (clearance 16.1)
+      (clearance 18.1 (type default_smd))
+      (clearance 4 (type smd_smd))
+    )
+  )
+  (placement
+    (component BUCKPUCK
+      (place BP1 5400 -3600 front 270 (PN BUCKPUCK_350mA))
+    )
+    (component POT_296
+      (place RV1 6400 -5500 front 0 (PN 5k))
+    )
+    (component PROBEPOINT
+      (place PP4 6600 -3600 front 90 (PN "CurrentSense-"))
+      (place PP3 6200 -3600 front 270 (PN CurrentSense+))
+      (place PP2 5100 -4700 front 270 (PN GND))
+      (place PP1 5700 -4700 front 90 (PN Vin))
+    )
+    (component SCREW_TERMINAL_2
+      (place P1 5400 -5600 front 0 (PN Power))
+    )
+    (component SM1210
+      (place C1 5400 -4700 front 180 (PN 10uF))
+    )
+    (component SM2010
+      (place R4 6900 -3800 back 90 (PN 10))
+      (place R3 5900 -3800 back 90 (PN 10))
+      (place R2 4900 -3800 back 90 (PN 10))
+      (place R1 6400 -3900 front 180 (PN 0.1))
+    )
+    (component TO_269AA
+      (place D1 5400 -5100 front 90 (PN BRIDGE))
+    )
+    (component VSMG3700
+      (place D10 6900 -5300 back 0 (PN LED))
+      (place D9 6900 -4300 back 0 (PN LED))
+      (place D8 6900 -3300 back 0 (PN LED))
+      (place D7 5900 -5300 back 0 (PN LED))
+      (place D6 5900 -4300 back 0 (PN LED))
+      (place D5 5900 -3300 back 0 (PN LED))
+      (place D4 4900 -5300 back 0 (PN LED))
+      (place D3 4900 -4300 back 0 (PN LED))
+      (place D2 4900 -3300 back 0 (PN LED))
+    )
+    (component ToggleSwitch
+      (place SW1 6400 -4500 front 270 (PN SPST))
+    )
+    (component Mounting_Hole
+      (place Mounting_Hole01 4600 -3000 front 0 (PN VAL**))
+      (place Mounting_Hole02 7200 -3000 front 0 (PN VAL**))
+      (place Mounting_Hole03 4600 -5600 front 0 (PN VAL**))
+      (place Mounting_Hole04 7200 -5600 front 0 (PN VAL**))
+    )
+  )
+  (library
+    (image BUCKPUCK
+      (outline (path signal 15  -100 400  -100 -400))
+      (outline (path signal 15  -100 -400  700 -400))
+      (outline (path signal 15  700 -400  700 400))
+      (outline (path signal 15  700 400  -100 400))
+      (pin Round[A]Pad_78_mil 4 0 0)
+      (pin Round[A]Pad_78_mil 3 0 100)
+      (pin Round[A]Pad_78_mil 2 0 200)
+      (pin Round[A]Pad_78_mil 1 0 300)
+      (pin Round[A]Pad_78_mil 5 0 -100)
+      (pin Round[A]Pad_78_mil 6 0 -300)
+      (pin Round[A]Pad_260_mil @1 250 -200)
+    )
+    (image POT_296
+      (outline (path signal 15  -125 -200  -125 -225))
+      (outline (path signal 15  -125 -225  125 -225))
+      (outline (path signal 15  125 -225  125 -200))
+      (outline (path signal 15  -350 -200  -350 450))
+      (outline (path signal 15  -350 450  350 450))
+      (outline (path signal 15  350 450  350 -200))
+      (outline (path signal 15  126.4 270  120.3 231  102.3 195.7  74.3 167.7  39 149.7
+            0 143.6  -39 149.7  -74.3 167.7  -102.3 195.7  -120.3 231  -126.4 270
+            -120.3 309  -102.3 344.3  -74.3 372.3  -39 390.3  0 396.4  39 390.3
+            74.3 372.3  102.3 344.3  120.3 309))
+      (outline (path signal 15  -350 -200  350 -200))
+      (pin Round[A]Pad_80_mil 1 -148 -118)
+      (pin Round[A]Pad_80_mil 2 0 -118)
+      (pin Round[A]Pad_80_mil 3 148 -118)
+      (pin Round[A]Pad_140_mil @1 -256 0)
+      (pin Round[A]Pad_140_mil @2 256 0)
+      (pin Round[A]Pad_140_mil @3 -217 276)
+      (pin Round[A]Pad_140_mil @4 217 276)
+    )
+    (image PROBEPOINT
+      (outline (path signal 15  -100 -50  -100 50))
+      (outline (path signal 15  -100 50  100 50))
+      (outline (path signal 15  100 50  100 -50))
+      (outline (path signal 15  100 -50  -100 -50))
+      (pin Round[A]Pad_60_mil 1 -50 0)
+      (pin Round[A]Pad_60_mil 2 50 0)
+    )
+    (image SCREW_TERMINAL_2
+      (outline (path signal 15  -125 125  -125 -150))
+      (outline (path signal 15  -125 125  125 125))
+      (outline (path signal 15  125 125  125 -150))
+      (outline (path signal 15  -125 -150  125 -150))
+      (pin Round[A]Pad_73_mil 2 50 0)
+      (pin Rect[A]Pad_73x73_mil 1 -50 0)
+      (pin Round[A]Pad_53_mil @1 -50 -100)
+      (pin Round[A]Pad_53_mil @2 50 -100)
+    )
+    (image SM1210
+      (outline (path signal 5  -88 -60  -88.3 -62.1  -89.3 -64.1  -90.9 -65.7  -92.9 -66.7
+            -95 -67  -97.1 -66.7  -99.1 -65.7  -100.7 -64.1  -101.7 -62.1
+            -102 -60  -101.7 -57.9  -100.7 -55.9  -99.1 -54.3  -97.1 -53.3
+            -95 -53  -92.9 -53.3  -90.9 -54.3  -89.3 -55.9  -88.3 -57.9))
+      (outline (path signal 5  -30 55  -90 55))
+      (outline (path signal 5  -90 55  -90 -55))
+      (outline (path signal 5  -90 -55  -30 -55))
+      (outline (path signal 5  30 -55  90 -55))
+      (outline (path signal 5  90 -55  90 55))
+      (outline (path signal 5  90 55  30 55))
+      (pin Rect[T]Pad_50x100_mil 1 -60 0)
+      (pin Rect[T]Pad_50x100_mil 2 60 0)
+    )
+    (image SM2010
+      (outline (path signal 15  50 70  140 70))
+      (outline (path signal 15  140 70  140 -70))
+      (outline (path signal 15  140 -70  50 -70))
+      (outline (path signal 15  -50 70  -140 70))
+      (outline (path signal 15  -140 70  -140 -70))
+      (outline (path signal 15  -140 -70  -50 -70))
+      (pin Rect[T]Pad_55x98_mil 1 -96 0)
+      (pin Rect[T]Pad_55x98_mil 2 96 0)
+    )
+    (image TO_269AA
+      (outline (path signal 15  -70 100  -70 -100))
+      (outline (path signal 15  -70 -100  70 -100))
+      (outline (path signal 15  70 -100  70 100))
+      (outline (path signal 15  70 100  -70 100))
+      (pin Rect[T]Pad_85x35_mil 1 125 50)
+      (pin Rect[T]Pad_85x35_mil 2 -125 50)
+      (pin Rect[T]Pad_85x35_mil 3 125 -50)
+      (pin Rect[T]Pad_85x35_mil 4 -125 -50)
+    )
+    (image VSMG3700
+      (outline (path signal 15  -100 -150  -75 -175))
+      (outline (path signal 15  -100 -125  -50 -175))
+      (outline (path signal 15  0 150  0 175))
+      (outline (path signal 15  -50 100  50 100))
+      (outline (path signal 15  50 150  -50 150))
+      (outline (path signal 15  -50 150  0 100))
+      (outline (path signal 15  0 100  50 150))
+      (outline (path signal 15  -100 -100  -25 -175))
+      (outline (path signal 15  -100 175  -100 -175))
+      (outline (path signal 15  -100 -175  100 -175))
+      (outline (path signal 15  100 -175  100 175))
+      (outline (path signal 15  100 175  -100 175))
+      (pin Rect[T]Pad_102x63_mil 1 0 55)
+      (pin Rect[T]Pad_102x63_mil 2 0 -55)
+    )
+    (image ToggleSwitch
+      (outline (path signal 15  0 40  0 -40))
+      (outline (path signal 15  -175 100  -175 -100))
+      (outline (path signal 15  -175 -100  175 -100))
+      (outline (path signal 15  175 -100  175 100))
+      (outline (path signal 15  175 100  -175 100))
+      (pin Round[A]Pad_80_mil 1 -100 0)
+      (pin Round[A]Pad_80_mil 2 100 0)
+    )
+    (image Mounting_Hole
+      (pin Round[A]Pad_150_mil @1 0 0)
+    )
+    (padstack Round[A]Pad_140_mil
+      (shape (circle Component 140))
+      (shape (circle Copper 140))
+      (attach off)
+    )
+    (padstack Round[A]Pad_150_mil
+      (shape (circle Component 150))
+      (shape (circle Copper 150))
+      (attach off)
+    )
+    (padstack Round[A]Pad_260_mil
+      (shape (circle Component 260))
+      (shape (circle Copper 260))
+      (attach off)
+    )
+    (padstack Round[A]Pad_53_mil
+      (shape (circle Component 53))
+      (shape (circle Copper 53))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Component 60))
+      (shape (circle Copper 60))
+      (attach off)
+    )
+    (padstack Round[A]Pad_73_mil
+      (shape (circle Component 73))
+      (shape (circle Copper 73))
+      (attach off)
+    )
+    (padstack Round[A]Pad_78_mil
+      (shape (circle Component 78))
+      (shape (circle Copper 78))
+      (attach off)
+    )
+    (padstack Round[A]Pad_80_mil
+      (shape (circle Component 80))
+      (shape (circle Copper 80))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_50x100_mil
+      (shape (rect Component -25 -50 25 50))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_55x98_mil
+      (shape (rect Component -27.5 -49 27.5 49))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_73x73_mil
+      (shape (rect Component -36.5 -36.5 36.5 36.5))
+      (shape (rect Copper -36.5 -36.5 36.5 36.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_85x35_mil
+      (shape (rect Component -42.5 -17.5 42.5 17.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_102x63_mil
+      (shape (rect Component -51 -31.5 51 31.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_45:25_mil"
+      (shape (circle Component 45))
+      (shape (circle Copper 45))
+      (attach off)
+    )
+  )
+  (network
+    (net "N-000013"
+      (pins BP1-4 RV1-2 SW1-2)
+    )
+    (net "N-000012"
+      (pins BP1-3 RV1-1 SW1-1)
+    )
+    (net "N-000011"
+      (pins BP1-2 D10-2 D7-2 D4-2)
+    )
+    (net "N-000010"
+      (pins BP1-1 PP3-1 PP3-2 R1-2)
+    )
+    (net /Vin
+      (pins BP1-5 PP1-1 PP1-2 C1-1 D1-3)
+    )
+    (net "N-000009"
+      (pins BP1-6 PP2-1 PP2-2 C1-2 D1-1)
+    )
+    (net "N-000017"
+      (pins PP4-1 PP4-2 R1-1 D8-1 D5-1 D2-1)
+    )
+    (net "N-000008"
+      (pins P1-2 D1-4)
+    )
+    (net "N-000007"
+      (pins P1-1 D1-2)
+    )
+    (net "N-000016"
+      (pins R4-1 D8-2)
+    )
+    (net "N-000002"
+      (pins R4-2 D9-1)
+    )
+    (net "N-000001"
+      (pins R3-1 D5-2)
+    )
+    (net "N-000014"
+      (pins R3-2 D6-1)
+    )
+    (net "N-000015"
+      (pins R2-1 D2-2)
+    )
+    (net "N-000003"
+      (pins R2-2 D3-1)
+    )
+    (net "N-000004"
+      (pins D10-1 D9-2)
+    )
+    (net "N-000005"
+      (pins D7-1 D6-2)
+    )
+    (net "N-000006"
+      (pins D4-1 D3-2)
+    )
+    (class kicad_default /Vin "N-000001" "N-000002" "N-000003" "N-000004"
+      "N-000005" "N-000006" "N-000007" "N-000008" "N-000009" "N-000010" "N-000011"
+      "N-000012" "N-000013" "N-000014" "N-000015" "N-000016" "N-000017"
+      (circuit
+        (use_via Via[0-1]_45:25_mil)
+      )
+      (rule (width 32))
+    )
+  )
+  (wiring
+  )
+)

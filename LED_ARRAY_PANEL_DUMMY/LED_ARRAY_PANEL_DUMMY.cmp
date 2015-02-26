@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2509)-final date = Tue 04 May 2010 02:53:30 PM PDT
+
+BeginCmp
+TimeStamp = /4B86CF65;
+Reference = P1;
+ValeurCmp = HEADER_FEMALE_PINS;
+IdModule  = HEADER_8_PIN_SSHR;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B86CF77;
+Reference = P2;
+ValeurCmp = HEADER_MALE_PINS;
+IdModule  = HEADER_8_PIN_THRU_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE096DC;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = HEADER_4_PIN_PASS_THRU;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE096E1;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = HEADER_4_PIN_PASS_THRU;
+EndCmp
+
+EndListe
